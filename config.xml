@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="3.4.0">
-  <name>Moodle Mobile</name>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.cy.zorbas.lms2" version="10">
+  <name>Human Asset Mobile</name>
   <description>
-        Moodle Mobile official app
+        Human Asset Mobile app
     </description>
-  <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+  <author href="http://humanasset.com" email="info@humanasset.com">
+        Human Asset Mobile dev
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -60,10 +60,10 @@
   <plugin name="nl.kingsquare.cordova.background-audio" spec="1.0.1" />
 
   <plugin name="phonegap-plugin-push" spec="1.9.2">
-      <variable name="SENDER_ID" value="694767596569" />
+      <variable name="SENDER_ID" value="219028530090" />
   </plugin>
   <plugin name="cordova-plugin-customurlscheme" spec="4.3.0">
-      <variable name="URL_SCHEME" value="moodlemobile" />
+      <variable name="URL_SCHEME" value="" />
   </plugin>
   <plugin name="ionic-plugin-keyboard" spec="2.2.1" />
   <plugin name="cordova-plugin-zip" spec="3.1.0" />
